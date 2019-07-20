@@ -1,0 +1,16 @@
+# source: http://localhost:8080/graphql
+# timestamp: Sat Jul 20 2019 18:15:33 GMT+0100 (British Summer Time)
+
+"""Query root"""
+type Query {
+  user(id: String!): User
+}
+
+"""Unrepresentable type"""
+scalar UNREPRESENTABLE
+
+type User {
+  name: String!
+  id: String!
+  age: Int!
+}

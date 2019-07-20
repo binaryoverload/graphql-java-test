@@ -9,7 +9,6 @@ public class GraphQLRequest {
     private Map<String, Object> variables = new HashMap<>();
     private String operationName;
 
-
     public String getQuery() {
         return query;
     }
